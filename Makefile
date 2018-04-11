@@ -1,6 +1,6 @@
 CXX=g++
 
-SRCS=MemcpyTest.cpp TestRunner.cpp Tester.cpp
+SRCS=MemcpyTest.cpp StrncpyTest.cpp StrcpyTest.cpp TestRunner.cpp Tester.cpp
 OBJS=${SRCS:S/.cpp/.o/}
 
 all: tester
